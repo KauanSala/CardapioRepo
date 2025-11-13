@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaAlimentosBackEnd">
+    tools:context=".TelaBebidasBackEnd">
 
     <ScrollView
         android:layout_width="409dp"
@@ -23,40 +23,40 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/texto_macarraocarbonara" />
+                android:text="@string/texto_coca" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/carbonara" />
+                app:srcCompat="@drawable/coca" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/texto_rondelli" />
+                android:text="@string/texto_fanta" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/rondeli" />
+                app:srcCompat="@drawable/fanta" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/texto_risotto" />
+                android:text="@string/texto_sprite" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@tools:sample/avatars"
-                app:srcCompat="@drawable/risotto" />
+                app:srcCompat="@drawable/sprite" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
